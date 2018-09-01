@@ -33,6 +33,7 @@ Alternatively, you can programmatically manipulate images using the `Image::make
 Image::make('/uploads/photo.jpg',array(
 	'width' => 300,
 	'height' => 300,
+	'crop' => 'top_right',
 	'grayscale' => true
 ))->save('/path/to/the/thumbnail.jpg');
 ```
